@@ -3,3 +3,10 @@
   width: 100%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 800px) {
+  .content__section {
+    margin: 0;
+    padding: 0;
+  }
+}

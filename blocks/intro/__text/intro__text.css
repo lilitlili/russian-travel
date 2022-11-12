@@ -10,19 +10,17 @@
   line-height: 26px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 800px) {
   .intro__text {
-      max-width: 720px;
-      width: 100%;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .intro__text {
-      max-width: 288px;
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
+    max-width: 288px;
+    margin-left: 0;
+    margin-right: 0;
 
   }
 }
