@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 986px) {
   .page__container {
     margin: 0;
   }

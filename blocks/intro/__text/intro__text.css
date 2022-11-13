@@ -10,13 +10,13 @@
   line-height: 26px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 986px) {
   .intro__text {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 568px) {
   .intro__text {
     max-width: 288px;
     margin-left: 0;

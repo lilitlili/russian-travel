@@ -8,13 +8,13 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 986px) {
   .place__url-heading {
     line-height: 12px;
   }
 }
 
-@media screen and (max-width: 564px) {
+@media screen and (max-width: 568px) {
   .place__url-heading {
     padding: 0 16px;
   }

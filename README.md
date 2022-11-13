@@ -11,5 +11,5 @@
 
 ## Контакты:
 E-mail: lilitkhalatian@yandex.ru
-ссылка проекта на GitHub: https://github.com/lilitlili/russian-travel.git
+ссылка проекта: [https://lilitlili.github.io/russian-travel/index.html]
 
