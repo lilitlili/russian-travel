@@ -1,17 +1,16 @@
 .place__link {
+  max-width: 456px;
+  font-family: "Inter", "Arial", "sans-serif";
   font-weight: 400;
   font-size: 18px;
-  line-height: 122%;
-  color: #ffffff;
-  transition: 0.5s;
+  line-height: 22px;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .place__link:hover {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 568px) {
-  .place__link {
-    padding: 0 16px;
-  }
+  transition: 0.5s ease-in-out;
 }

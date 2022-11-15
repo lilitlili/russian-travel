@@ -1,52 +1,56 @@
 .cover__overlay {
+  min-height: 740px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 740px;
-  color: #fff;
-  text-decoration: none;
-  box-sizing: border-box;
   background-image: url(../../../images/__background\ \(1\).jpg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  text-decoration: none;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
-@media screen and (max-width: 1152px) {
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
   .cover__overlay {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 768px) {
   .cover__overlay {
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 550px) {
   .cover__overlay {
-    min-height: 200px;
-    max-width: 320px;
+    min-height: 380px;
   }
 }
 
-.cover__overlay::before {
-  content: "";
-  background-color: #2a2c2f;
-  opacity: 0.3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.cover__overlay:hover::before {
-  opacity: 0.8;
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }
