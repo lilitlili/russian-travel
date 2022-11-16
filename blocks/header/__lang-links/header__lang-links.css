@@ -10,6 +10,5 @@
 @media screen and (max-width: 320px) {
   .header__lang-links {
     padding-top: 14px;
-    max-width: 62px;
   }
 }
